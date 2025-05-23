@@ -9,6 +9,8 @@ jobs:
     name: Save PR Number
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v4
       - name: down artifact
         run: echo 'echo 1234' > PR_NUMBER.txt
       - uses: actions/upload-artifact@v4
