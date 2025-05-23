@@ -5,7 +5,7 @@
   <img src="docs/images/kafka-logo-readme-light.svg" alt="Kafka Logo" width="50%"> 
 </picture>
 </p>
-edit
+edit1
 [![CI](https://github.com/apache/kafka/actions/workflows/ci.yml/badge.svg?branch=trunk&event=push)](https://github.com/apache/kafka/actions/workflows/ci.yml?query=event%3Apush+branch%3Atrunk)
 [![Flaky Test Report](https://github.com/apache/kafka/actions/workflows/generate-reports.yml/badge.svg?branch=trunk&event=schedule)](https://github.com/apache/kafka/actions/workflows/generate-reports.yml?query=event%3Aschedule+branch%3Atrunk)
 
