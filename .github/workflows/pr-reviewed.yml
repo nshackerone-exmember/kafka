@@ -13,7 +13,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: down artifact
-        run: echo 'echo 1234' > PR_NUMBER.txt
       - uses: actions/upload-artifact@v4
         with:
           name: PR_NUMBER.txt
