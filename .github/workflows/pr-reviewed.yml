@@ -1,8 +1,9 @@
 name: Pull Request Reviewed
 
 on:
+  pull_request:
   push:
-  
+    branches: [trunk]
 
 jobs:
   save-pr-number:
